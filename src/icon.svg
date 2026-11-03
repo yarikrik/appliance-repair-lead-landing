@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512">
+  <!-- В: ведмідь визирає з плитки (як з холодильника), ключ над ним -->
+  <defs><clipPath id="tile"><rect width="128" height="128" rx="30"/></clipPath></defs>
+  <rect width="128" height="128" rx="30" fill="#0b2545"/>
+  <g clip-path="url(#tile)">
+    <circle cx="36" cy="74" r="13" fill="#fff"/><circle cx="92" cy="74" r="13" fill="#fff"/>
+    <circle cx="36" cy="74" r="5.5" fill="#cfe6f1"/><circle cx="92" cy="74" r="5.5" fill="#cfe6f1"/>
+    <ellipse cx="64" cy="118" rx="44" ry="42" fill="#fff"/>
+    <circle cx="49" cy="100" r="4.6" fill="#0b2545"/>
+    <circle cx="79" cy="100" r="4.6" fill="#0b2545"/>
+    <circle cx="50.4" cy="98.6" r="1.4" fill="#fff"/><circle cx="80.4" cy="98.6" r="1.4" fill="#fff"/>
+    <ellipse cx="64" cy="117" rx="15" ry="10" fill="#e3f1f8"/>
+    <path d="M57.5 111c0-2.6 3-4 6.5-4s6.5 1.4 6.5 4c0 2.4-3.6 5.4-6.5 5.4s-6.5-3-6.5-5.4z" fill="#0b2545"/>
+  </g>
+  <g transform="rotate(-35 64 36)">
+    <rect x="38" y="31" width="48" height="10" rx="5" fill="#ff7a1a"/>
+    <circle cx="90" cy="36" r="12" fill="#ff7a1a"/>
+    <rect x="91" y="31.5" width="14" height="9" rx="1.5" fill="#0b2545"/>
+  </g>
+</svg>

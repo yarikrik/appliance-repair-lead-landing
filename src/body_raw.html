@@ -1,0 +1,121 @@
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#"><img src="icon.svg" alt=""><span><b>Polar Fix</b><small>APPLIANCE REPAIR</small></span></a>
+    <a class="call" href="tel:+16190000000">
+      <svg viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      <span>(619) 000-0000<small>Mon–Sat · 8am–7pm</small></span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1 id="headline">Appliance repair in San Diego — request a technician in 60 seconds</h1>
+      <p class="sub">Fridge not cooling? Washer won't drain? Tell us what's wrong and a local technician will call you back.</p>
+
+      <div class="card" id="card">
+        <form id="lead" novalidate>
+          <div class="grid">
+            <div class="f">
+              <label for="appliance">Appliance</label>
+              <select class="in" id="appliance" name="appliance" required>
+                <option value="">Select</option>
+              </select>
+              <div class="err" data-for="appliance"></div>
+            </div>
+            <div class="f">
+              <label for="brand">Brand</label>
+              <input class="in" id="brand" name="brand" list="brands" placeholder="e.g. Samsung" autocomplete="off">
+              <datalist id="brands"></datalist>
+              <div class="err" data-for="brand"></div>
+            </div>
+            <div class="f full">
+              <label for="problem">What's wrong?</label>
+              <select class="in" id="problem" name="problem" disabled>
+                <option value="">Choose appliance first</option>
+              </select>
+              <input class="in other" id="problem_other" name="problem_other" maxlength="40" placeholder="Describe in 2–3 words">
+              <div class="err" data-for="problem"></div>
+            </div>
+            <div class="f">
+              <label for="zip">ZIP code</label>
+              <input class="in" id="zip" name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="91941">
+              <div class="note" id="zipNote"></div>
+              <div class="err" data-for="zip"></div>
+            </div>
+            <div class="f">
+              <label for="address">Street address</label>
+              <input class="in" id="address" name="address" autocomplete="street-address" placeholder="1234 Main St">
+              <div class="err" data-for="address"></div>
+            </div>
+            <div class="f full">
+              <label for="phone">Phone</label>
+              <input class="in" id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="(619) 555-0123">
+              <div class="err" data-for="phone"></div>
+            </div>
+          </div>
+          <div class="hp" aria-hidden="true"><input name="website" tabindex="-1" autocomplete="off"></div>
+          <div class="bottom">
+            <label class="consent"><input type="checkbox" id="consent">
+              <span>By submitting, I agree that Polar Fix Appliance Repair and its partner technicians may call or text me at this number about my request. Consent is not a condition of purchase. Msg &amp; data rates may apply.</span></label>
+            <button class="btn" type="submit" id="submitBtn">Request a technician</button>
+          </div>
+          <div class="err" data-for="consent" style="margin-top:6px"></div>
+          <div class="err" data-for="form"></div>
+        </form>
+        <div class="done" id="done">
+          <div class="ic">✓</div>
+          <h2>Thanks! Your request is in.</h2>
+          <p id="doneText">A local technician will call you shortly to confirm the time.</p>
+        </div>
+      </div>
+      <div class="meta"><span>Free request</span><span>No obligation</span><span>Takes under a minute</span></div>
+    </div>
+  </section>
+
+  <section class="s">
+    <div class="wrap">
+      <h2 class="t">We fix all major appliances</h2>
+      <p class="ts">Pick your appliance to start your request</p>
+      <div class="apps" id="apps"></div>
+    </div>
+  </section>
+
+  <section class="s alt">
+    <div class="wrap">
+      <h2 class="t">How it works</h2>
+      <p class="ts">Three simple steps — no long forms, no waiting on hold</p>
+      <div class="steps">
+        <div class="step"><h3>Tell us what's wrong</h3><p>Appliance, brand and the problem in a few words. Takes under a minute.</p></div>
+        <div class="step"><h3>Get a call back</h3><p>A local technician calls you to confirm the visit time and answer your questions.</p></div>
+        <div class="step"><h3>Get it fixed</h3><p>The technician comes to your home and fixes your appliance on site.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s">
+    <div class="wrap">
+      <h2 class="t">Areas we serve</h2>
+      <p class="ts">San Diego County</p>
+      <div class="areas"><span>La Mesa</span><span>Chula Vista</span><span>Lakeside</span><span>Poway</span></div>
+      <h2 class="t" style="margin-top:46px">All major brands</h2>
+      <p class="ts">and many more</p>
+      <div class="brands"><span>Samsung</span><span>LG</span><span>Whirlpool</span><span>GE</span><span>Frigidaire</span><span>Maytag</span><span>Bosch</span><span>KitchenAid</span><span>Kenmore</span></div>
+      <div class="cta2"><a href="#card">Request a technician</a></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <img src="logo_dark.svg" alt="Polar Fix Appliance Repair" style="height:44px">
+      <div><a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms of Service</a></div>
+    </div>
+    <p class="disc">Polar Fix Appliance Repair is a free referral service that connects users with local service providers. All contractors are independent and Polar Fix Appliance Repair does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed.</p>
+    <p class="disc">© 2026 Polar Fix Appliance Repair · San Diego, CA</p>
+  </div>
+</footer>
+

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" width="1040" height="256">
+  
+  <g transform="translate(8 8) scale(0.875)">
+    <defs>
+    <mask id="jaw">
+      <rect width="128" height="128" fill="#fff"/>
+      <rect x="57.5" y="0" width="13" height="20" rx="2" fill="#000"/>
+    </mask>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14365c"/><stop offset="1" stop-color="#0b2545"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="62" fill="url(#bg)"/>
+  <!-- гайковий ключ за головою -->
+  <g transform="rotate(42 64 64)" mask="url(#jaw)">
+    <rect x="57" y="20" width="14" height="98" rx="7" fill="#9fc9de"/>
+    <circle cx="64" cy="16" r="15" fill="#9fc9de"/>
+  </g>
+  <!-- вуха -->
+  <circle cx="38" cy="48" r="10" fill="#ffffff"/>
+  <circle cx="90" cy="48" r="10" fill="#ffffff"/>
+  <circle cx="38" cy="48" r="4.5" fill="#cfe6f1"/>
+  <circle cx="90" cy="48" r="4.5" fill="#cfe6f1"/>
+  <!-- голова -->
+  <path d="M64 38c21 0 35 13 35 31 0 17-15 29-35 29S29 86 29 69c0-18 14-31 35-31z" fill="#ffffff"/>
+  <!-- морда -->
+  <ellipse cx="64" cy="80" rx="16" ry="12" fill="#e6f3f9"/>
+  <path d="M57.5 73.5c0-2.6 3-4 6.5-4s6.5 1.4 6.5 4c0 2.4-3.6 5.5-6.5 5.5s-6.5-3.1-6.5-5.5z" fill="#0b2545"/>
+  <path d="M64 79v4.5M58.5 85c2.5 2.4 8.5 2.4 11 0" stroke="#0b2545" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <!-- очі -->
+  <circle cx="51" cy="64" r="4" fill="#0b2545"/>
+  <circle cx="77" cy="64" r="4" fill="#0b2545"/>
+  <circle cx="52.3" cy="62.7" r="1.2" fill="#fff"/>
+  <circle cx="78.3" cy="62.7" r="1.2" fill="#fff"/>
+  </g>
+  <text x="134" y="68" font-family="'Plus Jakarta Sans', Inter, Arial, sans-serif" font-weight="800" font-size="50" letter-spacing="-1" fill="#0b2545">Polar Fix</text>
+  <text x="137" y="100" font-family="'Plus Jakarta Sans', Inter, Arial, sans-serif" font-weight="700" font-size="19.5" letter-spacing="5.2" fill="#3f6e8c">APPLIANCE REPAIR</text>
+</svg>
